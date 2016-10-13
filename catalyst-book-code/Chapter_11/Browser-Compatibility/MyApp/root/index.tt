@@ -1,0 +1,27 @@
+ <body>
+ <div class="main gridlines">
+ <div class="clear"></div>
+ <div class="ml10 mr15 clearfix"><h1> Heading  </h1> 
+ <p class="menu">Menu here! ("menu" style defined locally)</p>
+ </div>
+ <div class="dr15"> Right hand column
+ </div>
+ <div  class="dl10">
+
+ <p> Left hand column </p>
+</div>
+ <div class="ml10 fluid mr15">
+
+ <p>
+ [% IF error %]
+ <p class="error"> c.stash.error goes here.  We define the error style in our
+ local css file</p>
+ [% END %]
+ <h1>Main content goes here</h1>
+ <p> In the center column </p>
+ <div class="hp oldbook tc">
+ 
+ Footer goes here
+
+</div>
+</div>
